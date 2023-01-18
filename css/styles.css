@@ -1,0 +1,205 @@
+body, .nav-link, .main-feature, .final-message {
+  font-family: 'Montserrat';
+}
+
+h1,h2,h3 {
+  font-family: 'Montserrat';
+  line-height: 1.5;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 15px, 25px, 15px, 25px;
+}
+
+.navbar-brand {
+  text-align: left;
+  margin-left: 50px;
+  font-family: 'Ubuntu';
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* Title section */
+.title-message {
+  padding-top: 200px;
+  color: white;
+}
+
+.service-title, .commitment-title, .qaa-title {
+  margin-bottom: 40px;
+}
+
+/* Sections */
+.title-section {
+  height: 400px;
+  width: 100%;
+  filter:grayscale(85%);
+  object-fit: cover;
+}
+
+.colored-section {
+  background-color: #BFDBF7;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.white-section {
+  background-color: #fff;
+  color: black;
+}
+
+
+/* Buttons */
+.btn-blue {
+  margin: 5% 3% 5% 0;
+  background-color: #1F7A8C;
+  color: #fff;
+}
+
+/* Features */
+
+#features {
+  text-align: center;
+  vertical-align: middle;
+  padding: 5% 10%;
+}
+
+.commitment-title {
+  margin-bottom: 50px;
+}
+
+.feature-icon {
+  color: #23303B;
+  margin-bottom: 1rem;
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0 0 2px #888;
+  padding: 0.5em 0.6em;
+}
+
+.feature-icon:hover {
+  color: #1F7A8C;
+}
+
+.main-feature {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 998px) {
+  .feature-icon, .main-feature {
+    font-size: 70%;
+  }
+}
+
+/* Service Section */
+#service {
+  padding: 100px;
+  text-align: center;
+}
+
+.service-column {
+  padding: 3% 2%;
+}
+
+/* Extra Option */
+#eo {
+  text-align: center;
+  padding: 3% 20%;
+}
+
+.extra-message {
+  font-size: 1.5rem;
+}
+
+#check-button {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+/* Q&A section */
+.faq-heading{
+    border-bottom: #777;
+    padding: 20px 60px;
+}
+.faq-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.hr-line{
+  width: 60%;
+  margin: auto;
+
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+    color: #444;
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 60%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+}
+
+.faq-body{
+    margin: auto;
+   width: 50%;
+   padding: auto;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.faq-page:hover {
+    background-color: #F9F9F9;
+}
+
+/* Style the Q&A section */
+#qas{
+  text-align: center;
+  margin-bottom: 300px;
+}
+
+#qas-title{
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+#qas-field {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+/* Footer section */
+#footer {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.contact {
+  margin-bottom: 0px;
+  height: 50px;
+}
+
+.contact-icon {
+  padding: 15px;
+  color: black;
+}
+
+.contact-icon:hover {
+  color: gray;
+}
